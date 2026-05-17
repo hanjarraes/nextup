@@ -1,0 +1,135 @@
+.contats-page {
+  .bg-contatcs {
+    height: 100vh;
+    background-image: url("../../assets/img/bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    span {
+      width: 352px;
+      margin-top: 32px;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+  }
+  .contats-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 100px;
+    width: 100%;
+  }
+
+  .contacs-form-title {
+    color: #001a3a;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+  }
+
+  .contacs-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: #2a32ff;
+      margin-bottom: 20px;
+    }
+  }
+
+  .contacs-link > a {
+    font-size: 28px;
+    padding: 0 10px;
+    position: relative;
+    color: #2a32ff;
+    text-decoration: none;
+
+    &:hover {
+      color: #2a32ff;
+      font-size: 30px;
+      transition: font-size 0.2s;
+      &::before {
+        visibility: visible;
+        transform: scaleX(1);
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #2a32ff;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out 0s;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .contats-page {
+    .bg-contatcs {
+      padding: 32px;
+    }
+    .contats-form {
+      padding: 50px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .contats-page {
+    .bg-contatcs {
+      height: 300px;
+      padding: 32px;
+      span {
+        width: 241px;
+        font-size: 24px;
+      }
+    }
+    .contats-form {
+      padding: 0 100px;
+      height: min-content;
+      margin-bottom: 20px;
+    }
+    .contacs-form-title {
+      font-size: 16px;
+    }
+    .contacs-link {
+      a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .contacs-link > a {
+      font-size: 16px;
+      padding: 0 10px;
+      &:hover {
+        font-size: 18px;
+
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .contats-page {
+    .contats-form {
+      padding: 0 50px;
+      height: min-content;
+    }
+  }
+}

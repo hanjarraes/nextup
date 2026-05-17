@@ -1,0 +1,111 @@
+$blue: #2a32ff;
+$grey: #445b78;
+header {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.06);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 120px;
+      height: 45px;
+    }
+    .navigation-main {
+      display: flex;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: $grey;
+      }
+      button {
+        margin-left: 10px;
+        font-weight: bolder;
+      }
+    }
+    // .burger-menu {
+    //   i {
+    //     font-size: 24px;
+    //     font-weight: bold;
+    //     position: relative;
+    //     color: $grey ;
+    //   }
+    // }
+
+    .navigation-main > a {
+      font-size: 14px;
+      padding: 0 24px;
+      font-weight: bold;
+      position: relative;
+      color: $grey;
+      text-decoration: none;
+
+      &:hover {
+        color: $blue;
+        font-size: 16px;
+        transition: font-size 0.2s;
+        &::before {
+          visibility: visible;
+          transform: scaleX(1);
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $blue;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+      }
+    }
+  }
+}
+
+// .fullscreen-modal {
+//   &.modal-dialog {
+//     max-width: 100vw;
+//     margin: 0;
+//     height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+
+//   &.modal-content {
+//     width: 100%;
+//     height: 100%;
+//     border: none;
+//     border-radius: 0;
+//   }
+//   &.modal-body {
+//     padding: 1rem;
+//     overflow-y: auto;
+//   }
+//   .modal-body {
+//     height: 100vh;
+//     .ri-close-line {
+//       font-size: 34px;
+//       display: flex;
+//       justify-content: flex-end;
+//       color: $grey ;
+//     }
+//     .navigation-main {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       a {
+//         font-size: 24px;
+//         padding: 10px 10px;
+//         font-weight: bold;
+//         position: relative;
+//         color: $grey ;
+//         text-decoration: none;
+//       }
+//     }
+//   }
+// }

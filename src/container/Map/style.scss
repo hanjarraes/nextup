@@ -1,0 +1,10 @@
+.map-indonesia {
+  svg {
+    path {
+      cursor: pointer;
+      &:hover{
+        fill: greenyellow;
+      }
+    }
+  }
+}
