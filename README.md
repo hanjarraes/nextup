@@ -1,6 +1,6 @@
 # NextUp
 
-![NextUp Preview](./screenshot.svg)
+![NextUp Preview](./screenshot.png)
 
 NextUp adalah landing page React untuk mempromosikan produk atau layanan, dibangun dengan Create React App, SCSS, Redux Toolkit, dan React Router.
 
