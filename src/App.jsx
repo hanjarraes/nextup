@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import AOS from "aos";
@@ -19,12 +19,12 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contatcs" element={<Contatcs />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       
       <ToastContainer
         position="top-right"
