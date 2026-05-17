@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/nextup/static/css/main.86c60a6b.css",
+    "main.js": "/nextup/static/js/main.40860519.js",
+    "static/js/787.0612db14.chunk.js": "/nextup/static/js/787.0612db14.chunk.js",
+    "static/media/bg.svg": "/nextup/static/media/bg.24c4da6e40709ab2c296.svg",
+    "static/media/cats.svg": "/nextup/static/media/cats.1759685ca06f70f6d6fdc97b72117407.svg",
+    "static/media/coffee.svg": "/nextup/static/media/coffee.881101f418d09790e08589b732075e99.svg",
+    "static/media/remixicon.svg?t=1687271883607": "/nextup/static/media/remixicon.636515c9a8963df4380d.svg",
+    "static/media/sigup.svg": "/nextup/static/media/sigup.9615cdaaf87af8d41ff90258ac08bc4a.svg",
+    "static/media/orang_nulis.svg": "/nextup/static/media/orang_nulis.b79b1adbe667f840f3529fa547b20940.svg",
+    "static/media/Mockupcontent.svg": "/nextup/static/media/Mockupcontent.94f3ea6bbe1f3a2442a6.svg",
+    "static/media/remixicon.eot?t=1687271883607": "/nextup/static/media/remixicon.83e9a22ce7f199999169.eot",
+    "static/media/remixicon.ttf?t=1687271883607": "/nextup/static/media/remixicon.0bcb16fc20c3d365da14.ttf",
+    "static/media/dashboard.svg": "/nextup/static/media/dashboard.48358e39d601ad5a1962b4225f6784f8.svg",
+    "static/media/botol.svg": "/nextup/static/media/botol.5e926d53be63b9c3e1afe4d49f52b49d.svg",
+    "static/media/Baba.svg": "/nextup/static/media/Baba.c0f19d02da6def85e772f80810e05288.svg",
+    "static/media/remixicon.woff?t=1687271883607": "/nextup/static/media/remixicon.3f0f84f17d39491e07ff.woff",
+    "static/media/illustration-services-3.svg": "/nextup/static/media/illustration-services-3.5572113b8c6523088d7ef8b5a34cdc03.svg",
+    "static/media/remixicon.woff2?t=1687271883607": "/nextup/static/media/remixicon.85992a032c7668836563.woff2",
+    "static/media/logo-slogan-white.svg": "/nextup/static/media/logo-slogan-white.ca4bc1acfcf2256c3b06bcdbe60e54a0.svg",
+    "static/media/illustration-services-4.svg": "/nextup/static/media/illustration-services-4.4522f93658df87d642c0e1bc89881d14.svg",
+    "static/media/Logo.svg": "/nextup/static/media/Logo.6e39a1b336d9ddb096f55f14d86780cd.svg",
+    "static/media/logo-white-nextup 1.svg": "/nextup/static/media/logo-white-nextup 1.a91390ab3535132c25f9aacac9e53310.svg",
+    "static/media/illustration-services-2.svg": "/nextup/static/media/illustration-services-2.166dd3d6769cec436b0a50e207a86fcc.svg",
+    "static/media/illustration-services-1.svg": "/nextup/static/media/illustration-services-1.9905560ba6e90a3e8a6cffa1355decd1.svg",
+    "static/media/Group 1.svg": "/nextup/static/media/Group 1.eb384e74768368cd88d7.svg",
+    "static/media/ic-understanding.svg": "/nextup/static/media/ic-understanding.39007d6a9dd307ddd96790bde417f31a.svg",
+    "static/media/ic-collabiration.svg": "/nextup/static/media/ic-collabiration.54c181bdbb3905fb872facdc7a8d4fb8.svg",
+    "static/media/ic-support.svg": "/nextup/static/media/ic-support.4d8511c6931c7f6e460c106b04574944.svg",
+    "index.html": "/nextup/index.html",
+    "static/media/ic-progressive.svg": "/nextup/static/media/ic-progressive.28fb2c35f93dac76681099d8c127993f.svg",
+    "main.86c60a6b.css.map": "/nextup/static/css/main.86c60a6b.css.map",
+    "main.40860519.js.map": "/nextup/static/js/main.40860519.js.map",
+    "787.0612db14.chunk.js.map": "/nextup/static/js/787.0612db14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86c60a6b.css",
+    "static/js/main.40860519.js"
+  ]
+}
