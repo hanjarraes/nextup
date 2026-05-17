@@ -31,9 +31,22 @@ Hasil build akan dibuat di folder `build/`.
 
 ## Deploy ke GitHub Pages
 
-GitHub Actions sudah dikonfigurasi untuk membangun dan menerbitkan ke GitHub Pages secara otomatis saat Anda push ke branch `master`.
+Gunakan script deploy untuk membuat build dan mengirim hasilnya ke branch `deployment`.
 
-Setelah push ke remote, site akan tersedia di:
+```bash
+npm install
+npm run deploy
+```
+
+Branch target: `deployment`
+
+Di GitHub Pages settings, pilih metode deploy:
+
+- Source: `Deploy from a branch`
+- Branch: `deployment`
+- Folder: `/`
+
+Setelah deploy berhasil, site akan tersedia di:
 
 `https://hanjarraes.github.io/nextup`
 
